@@ -5,7 +5,7 @@
 ![image](preview/preview_login.jpg)
 
 首页预览
-![image](preview/preview_index.jpg)
+![image](preview/preview_index.png)
 
 购物车页面预览
 ![image](preview/preview_shop.jpg)
