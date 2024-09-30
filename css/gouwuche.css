@@ -1,0 +1,234 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tfoot {
+  border-collapse: separate;
+  width: 100%;
+}
+
+.cart-goods-list .list-head {
+  height: 35px;
+  line-height: 35px;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  color: #424242;
+  background-color: #f7f7f7;
+}
+
+.cart-goods-list .list-body {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-goods-list .list-head .col-check,
+.cart-goods-list .list-body .col-check {
+  width: 10%;
+}
+
+.cart-goods-list .list-body .col-check {
+  text-align: center;
+  border-left: 1px solid #e0e0e0;
+}
+
+.cart-bar .cart-bar-checkbox .col-check {
+  text-align: center;
+}
+
+.cart-goods-list .list-head .col-img,
+.cart-goods-list .list-body .col-img {
+  width: 10%;
+}
+
+.cart-goods-list .list-body .col-img {
+  padding: 20px 40px 20px 0px;
+}
+
+.cart-goods-list .list-body .col-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.cart-goods-list .list-head .col-name,
+.cart-goods-list .list-body .col-name {
+  width: 30%;
+}
+
+.cart-goods-list .list-head .col-market-price,
+.cart-goods-list .list-body .col-market-price {
+  width: 9%;
+}
+
+.cart-goods-list .list-head .col-price,
+.cart-goods-list .list-body .col-price {
+  width: 10%;
+  text-align: center;
+}
+
+.cart-goods-list .list-body .col-price {
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}
+
+.cart-goods-list .list-head .col-purchase-price,
+.cart-goods-list .list-body .col-purchase-price {
+  width: 8%;
+  text-align: center;
+}
+
+.cart-goods-list .list-head .col-num,
+.cart-goods-list .list-body .col-num {
+  width: 10%;
+  text-align: center;
+}
+
+.cart-goods-list .list-body .col-num {
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}
+
+.cart-goods-list .list-head .col-total,
+.cart-goods-list .list-body .col-total {
+  width: 8%;
+  text-align: center;
+}
+
+.cart-goods-list .list-head .col-action,
+.cart-goods-list .list-body .col-action {
+  width: 5%;
+  text-align: center;
+}
+
+.cart-goods-list .list-body .col-action {
+  border-left: 1px solid #e0e0e0;
+}
+
+.cart-goods-list .list-body .col-action span {
+  cursor: pointer;
+}
+
+.cart-goods-list .list-body .item-box {
+  border: 1px solid #e0e0e0;
+}
+
+.cart-goods-list .col-check .icon-checkbox {
+  /* display: inline-block; */
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.cart-goods-list .col-num .change-goods-num {
+  /* border: 1px solid #e0e0e0; */
+  text-align: center;
+  background-color: #fff;
+  width: 90%;
+  height: 27px;
+  line-height: 25px;
+  margin: 0 auto;
+}
+
+.cart-goods-list .col-num .change-goods-num .change-goods-num-del,
+.cart-goods-list .col-num .change-goods-num .change-goods-num-add {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  color: #757575;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.cart-goods-list .col-num .change-goods-num input {
+  text-align: center;
+  width: 40px;
+  height: 25px;
+  border: 1px solid #e0e0e0;
+  vertical-align: top;
+}
+
+.cart-bar {
+  border: 1px solid #e0e0e0;
+}
+
+.cart-bar .cart-bar-checkbox .col-check .icon-checkbox {
+  /* display: inline-block; */
+  width: 18px;
+  height: 18px;
+  line-height: 50px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.cart-bar .cart-bar-checkbox .selectall {
+  width: 80px;
+  height: 100%;
+  line-height: 50px;
+  color: #7bc3c9;
+}
+
+.cart-bar .cart-bar-checkbox .delproduct {
+  width: 80px;
+  height: 100%;
+  line-height: 50px;
+  color: #7bc3c9;
+}
+
+.cart-bar .cart-bar-totalprice {
+  width: 240px;
+  height: 100%;
+  padding: 20px;
+  font-size: 14px;
+  position: relative;
+  text-align: right;
+}
+
+.cart-price {
+  height: 100px;
+}
+
+.cart-price .shopping {
+  float: right;
+  width: 160px;
+  height: 40px;
+  margin: 15px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  background-color: #f7f7f7;
+  line-height: 40px;
+}
+
+.cart-price .account {
+  float: right;
+  width: 160px;
+  height: 40px;
+  margin: 15px 0px 15px 15px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  background-color: #ce362d;
+  color: #fff;
+  line-height: 40px;
+}
+
+.product-save td,
+.product-total-price td {
+  padding: 20px 0px;
+}
+
+.product-total-price .total-price {
+  position: relative;
+  left: 57px;
+}

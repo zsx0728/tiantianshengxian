@@ -1,0 +1,186 @@
+.main {
+    /* width: 990px; */
+    height: 270px;
+}
+
+.focus {
+    position: relative;
+    width: 903px;
+    height: 270px;
+    background-color: purple;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+    height: 100%;
+}
+
+.focus ul li {
+    float: left;
+    width: 903px;
+    height: 100%;
+}
+
+.focus ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    float: right;
+    width: 297px;
+    height: 270px;
+    background-color: #37a83f;
+}
+
+.currentTime {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.currentTime h1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#floor .container {
+    margin-top: 30px;
+}
+
+/* 时令水果模块 */
+.box_hd {
+    height: 40px;
+    border-bottom: 2px solid #37a83f;
+}
+
+.box_hd .title {
+    display: inline-block;
+
+}
+
+.box_hd .title h3 {
+    float: left;
+    font-size: 18px;
+    color: #37a83f;
+    font-weight: 700;
+}
+
+.box_hd .chakangengduo {
+    display: inline-block;
+    float: right;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.box_bd {
+    height: 335px;
+
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 100%;
+}
+
+.col_224 {
+    width: 224px;
+    background-color: #f9f9f9;
+    border: 1px solid #ECECEC;
+}
+
+.col_244 {
+    width: 244px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_244 .title,
+.col_244 .image,
+.col_244 .price {
+    text-align: center;
+    width: 100%;
+}
+
+.col_244 .title {
+    height: 68px;
+    /* line-height: 68px; */
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.col_244 .title h3 {
+    word-wrap: break-word;
+}
+
+.col_244 .image {
+    height: 199px;
+}
+
+.col_244 .price {
+    height: 68px;
+    color: #c81623;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 68px;
+    /* &:hover {
+        .cart {
+            display: inline-block;
+        }
+    } */
+}
+
+.col_244 .price .cart {
+    cursor: pointer;
+}
+
+.shopcar a {
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,254 @@
+/*公共样式*/
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/* 版心 */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  height: 125px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  width: 210px;
+  height: 100px;
+  transform: translate(0, -50%);
+}
+
+.logo h1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/logo.png) no-repeat;
+  background-size: contain;
+  /* font-size: 0;京东的做法*/
+  /* 淘宝的做法让文字隐藏 */
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+/* nav模块制作 */
+.nav {
+  height: 47px;
+  border-bottom: 2px solid #37a83f;
+}
+
+.nav .dropdown {
+  float: left;
+  width: 210px;
+  height: 45px;
+  background-color: #37a83f;
+}
+
+.nav .navitems {
+  float: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dt {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 16px;
+}
+
+.dropdown .dd {
+  display: none;
+  position: absolute;
+  width: 210px;
+  height: 270px;
+  background-color: #fff;
+  /* margin-top: 2px; */
+  font-size: 16px;
+  z-index: 1;
+}
+
+.dropdown .dd ul li {
+  position: relative;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 2px;
+  padding-left: 10px;
+  text-align: center;
+  border: 1px solid gainsboro;
+}
+
+.dropdown .dd ul li:hover {
+  background-color: #37a83f;
+}
+
+.dropdown .dd ul li a {
+  font-size: 16px;
+  color: black;
+}
+
+.dropdown .dd ul li:hover a {
+  color: #fff;
+}
+
+.navitems ul li {
+  float: left;
+}
+
+.navitems ul li a {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  font-size: 14px;
+  padding: 0 25px;
+  color: #37a83f;
+  font-weight: 700;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .login-header {
+  width: 100%;
+  height: 140px;
+}
+
+.main h2 {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 140px;
+}
+
+.main .login-content {
+  width: 50%;
+  height: 250px;
+  border-radius: 15px;
+  position: relative;
+  left: 50%;
+  top: 140px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 60px 100px;
+}
+
+.main .login-content .input-row-username {
+  width: 100%;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.main .login-content .input-row-password {
+  width: 100%;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.main label {
+  font-size: 16px;
+  font-weight: 900;
+  color: #50514c;
+}
+
+.main #username,
+.main #password {
+  width: 70%;
+  height: 25px;
+  margin: auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.main .login-row {
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 218px;
+}
+
+.main button {
+  width: 100%;
+  padding: 10px;
+  background-color: #90c48e;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* 底部模块制作 */
+.footer {
+  height: 150px;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  border-top: 2px solid #37a83f;
+}
+
+.mod_copyright {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.links {
+  margin-bottom: 15px;
+}
+
+.links a {
+  margin: 0 3px;
+}
+
+.copyright {
+  line-height: 20px;
+}
+
+.shopcar {
+  position: absolute;
+  right: 60px;
+  top: 25px;
+  width: 140px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  background-color: #f7f7f7;
+}
+
+.count {
+  position: absolute;
+  top: -5px;
+  left: 105px;
+  height: 14px;
+  line-height: 14px;
+  color: #fff;
+  background-color: #e60012;
+  padding: 0 5px;
+  border-radius: 7px 7px 7px 0;
+}
+
+.col_244 .price .cart {
+  content: "\e93a";
+  font-family: "icomoon";
+  /* padding-left: 5px; */
+  display: none;
+}
