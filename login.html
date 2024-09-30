@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    
+  </head>
+
+  <body>
+    <header class="header container">
+      <!-- logo模块 -->
+      <div class="logo">
+        <h1>
+          <a href="index.html" title="天天生鲜商城">天天生鲜商城</a>
+        </h1>
+      </div>
+    </header>
+
+    <!-- nav模块制作 start -->
+    <nav class="nav">
+      <div class="container">
+        <div class="dropdown">
+          <div class="dt">全部商品分类</div>
+          <div class="dd">
+            <ul>
+              <li><a href="#">时令水果</a></li>
+              <li><a href="#">海鲜水产</a></li>
+              <li><a href="#">全品肉类</a></li>
+              <li><a href="#">美味蛋品</a></li>
+              <li><a href="#">新鲜蔬菜</a></li>
+              <li><a href="#">低温奶制品</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navitems">
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="#">限时秒杀</a></li>
+            <li><a href="#">今日特价</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="login.html">登录</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav模块制作 end -->
+
+    <main>
+      <div class="container">
+        <div class="main">
+          <div class="login-header">
+            <h2>登录</h2>
+          </div>
+
+          <div class="login-content">
+            <div class="input-row-username">
+              <label>用户名：</label>
+              <input type="text" id="username" name="name" placeholder="" />
+            </div>
+
+            <div id="error_username"></div>
+
+            <div class="input-row-password">
+              <label>密码：</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="6位数数字"
+              />
+            </div>
+
+            <div id="error_password"></div>
+
+            <div class="login-row">
+              <button type="submit" onclick="loginValidate()">登录</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 底部模块的制作 start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="mod_copyright">
+          <div class="links">
+            <a href="#">关于我们</a> | <a href="#">联系我们</a> | 招聘人才 |
+            友情链接
+          </div>
+          <div class="copyright">
+            CopyRight &copy; 2023 天天生鲜 <br />
+            电话：88888888
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- 底部模块的制作 end -->
+
+    <script src="js/login.js"></script>
+  </body>
+</html>

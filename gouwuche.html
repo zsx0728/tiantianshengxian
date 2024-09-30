@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/gouwuche.css" />
+  <link rel="stylesheet" href="fonts/font/iconfont.css" />
+
+</head>
+
+<body>
+  <header class="header container">
+    <!-- logo模块 -->
+    <div class="logo">
+      <h1>
+        <a href="index.html" title="天天生鲜商城">天天生鲜商城</a>
+      </h1>
+    </div>
+  </header>
+
+  <!-- nav模块制作 start -->
+  <nav class="nav">
+    <div class="container">
+      <div class="dropdown">
+        <div class="dt">全部商品分类</div>
+        <div class="dd">
+          <ul>
+            <li><a href="#">时令水果</a></li>
+            <li><a href="#">海鲜水产</a></li>
+            <li><a href="#">全品肉类</a></li>
+            <li><a href="#">美味蛋品</a></li>
+            <li><a href="#">新鲜蔬菜</a></li>
+            <li><a href="#">低温奶制品</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navitems">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="#">限时秒杀</a></li>
+          <li><a href="#">今日特价</a></li>
+          <li><a href="#">注册</a></li>
+          <li><a href="login.html">登录</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav模块制作 end -->
+
+  <div class="container">
+    <table class="cart-goods-list" cellspacing="0">
+      <thead>
+        <tr class="list-head clearfix">
+          <th class="col-name" colspan="3">商品</th>
+          <th class="col-market-price">市场价（元）</th>
+          <th class="col-price">单价（元）</th>
+          <th class="col-purchase-price">购买价</th>
+          <th class="col-num">数量</th>
+          <th class="col-total">小计（元）</th>
+          <th class="col-action">操作</th>
+        </tr>
+      </thead>
+
+      <tbody class="list-body" id="tbody_id">
+      </tbody>
+
+      <tfoot class="cart-bar">
+        <tr class="cart-bar-checkbox">
+          <td class="col-check">
+            <input type="checkbox" id="selectallbtn" class="icon-checkbox" onclick="selectall(this)">
+          </td>
+          <td class="selectall">全选</td>
+          <td class="delproduct" colspan="5">删除选中商品</td>
+          <td>已选择：</td>
+          <td><label for="" id="checkedgoods">0</label>件商品</td>
+        </tr>
+
+        <tr class="product-save">
+          <td colspan="7"></td>
+          <td>共节省：</td>
+          <td>
+            - &yen;
+            <label for="">0</label>
+          </td>
+        </tr>
+
+        <tr class="product-total-price">
+          <td colspan="6"></td>
+          <td class="total-price" colspan="2">合计（不含运费）：</td>
+          <td>
+            &yen;
+            <label for="" id="totalprice">0</label>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <div class="cart-price">
+      <div class="account">去结算</div>
+      <div class="shopping">继续购物</div>
+    </div>
+  </div>
+
+  <!-- 底部模块的制作 start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="mod_copyright">
+        <div class="links">
+          <a href="#">关于我们</a> | <a href="#">联系我们</a> | 招聘人才 |
+          友情链接
+        </div>
+        <div class="copyright">
+          CopyRight &copy; 2023 天天生鲜 <br />
+          电话：88888888
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- 底部模块的制作 end -->
+
+  <script src="js/mock.js"></script>
+  <script src="js/gouwuche.js"></script>
+</body>
+
+</html>
